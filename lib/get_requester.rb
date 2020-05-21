@@ -6,9 +6,9 @@ end
 
 
 class GetRequester
-    attr_accessor :name, :occupation
+    attr_accessor :url
 
-  URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
+  #URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
 
   def initialization(url)
     @url = url
@@ -21,6 +21,6 @@ class GetRequester
   end
 
   def parse_json
-    JSON.parse(get_response_body)
+    JSON.parse(get_response_bodys)
   end
 end
