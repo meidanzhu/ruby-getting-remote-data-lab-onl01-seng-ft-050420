@@ -10,7 +10,7 @@ class GetRequester
 
   #URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
 
-  def initialization(url)
+  def initialize(url)
     @url = url
   end
 
